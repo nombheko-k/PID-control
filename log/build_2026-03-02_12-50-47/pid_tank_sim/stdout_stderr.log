@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing pid_tank_sim.egg-info/PKG-INFO
+writing dependency_links to pid_tank_sim.egg-info/dependency_links.txt
+writing entry points to pid_tank_sim.egg-info/entry_points.txt
+writing requirements to pid_tank_sim.egg-info/requires.txt
+writing top-level names to pid_tank_sim.egg-info/top_level.txt
+reading manifest file 'pid_tank_sim.egg-info/SOURCES.txt'
+writing manifest file 'pid_tank_sim.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/usernom-b/ros2_ws/install/pid_tank_sim/lib/python3.12/site-packages/pid-tank-sim.egg-link (link to .)
+Installing sim_node script to /home/usernom-b/ros2_ws/install/pid_tank_sim/lib/pid_tank_sim
+
+Installed /home/usernom-b/ros2_ws/build/pid_tank_sim
+running symlink_data
+symbolically linking /home/usernom-b/ros2_ws/build/pid_tank_sim/resource/pid_tank_sim -> /home/usernom-b/ros2_ws/install/pid_tank_sim/share/ament_index/resource_index/packages
+symbolically linking /home/usernom-b/ros2_ws/build/pid_tank_sim/package.xml -> /home/usernom-b/ros2_ws/install/pid_tank_sim/share/pid_tank_sim

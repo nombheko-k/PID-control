@@ -1,0 +1,16 @@
+[2.033s] Invoking command in '/home/usernom-b/ros2_ws/src/ekf_slam': PYTHONPATH=/home/usernom-b/ros2_ws/build/ekf_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usernom-b/ros2_ws/install/ekf_slam/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ekf_slam build --build-base /home/usernom-b/ros2_ws/build/ekf_slam/build install --record /home/usernom-b/ros2_ws/build/ekf_slam/install.log --single-version-externally-managed install_data
+[2.548s] running egg_info
+[2.585s] writing ../../build/ekf_slam/ekf_slam.egg-info/PKG-INFO
+[2.586s] writing dependency_links to ../../build/ekf_slam/ekf_slam.egg-info/dependency_links.txt
+[2.587s] writing entry points to ../../build/ekf_slam/ekf_slam.egg-info/entry_points.txt
+[2.588s] writing requirements to ../../build/ekf_slam/ekf_slam.egg-info/requires.txt
+[2.588s] writing top-level names to ../../build/ekf_slam/ekf_slam.egg-info/top_level.txt
+[2.661s] reading manifest file '../../build/ekf_slam/ekf_slam.egg-info/SOURCES.txt'
+[2.663s] writing manifest file '../../build/ekf_slam/ekf_slam.egg-info/SOURCES.txt'
+[2.663s] running build
+[2.663s] running build_py
+[2.664s] running install
+[2.676s] running install_lib
+[2.710s] running install_data
+[2.710s] error: can't copy 'launch/ekf_slam.launch.py': doesn't exist or not a regular file
+[2.749s] Invoked command in '/home/usernom-b/ros2_ws/src/ekf_slam' returned '1': PYTHONPATH=/home/usernom-b/ros2_ws/build/ekf_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usernom-b/ros2_ws/install/ekf_slam/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ekf_slam build --build-base /home/usernom-b/ros2_ws/build/ekf_slam/build install --record /home/usernom-b/ros2_ws/build/ekf_slam/install.log --single-version-externally-managed install_data

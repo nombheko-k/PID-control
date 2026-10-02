@@ -1,0 +1,18 @@
+[3.745s] Invoking command in '/home/usernom-b/ros2_ws/build/ekf_slam': PYTHONPATH=/home/usernom-b/ros2_ws/build/ekf_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usernom-b/ros2_ws/install/ekf_slam/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/usernom-b/ros2_ws/build/ekf_slam/build --no-deps symlink_data
+[4.770s] running develop
+[5.328s] running egg_info
+[5.386s] writing ekf_slam.egg-info/PKG-INFO
+[5.387s] writing dependency_links to ekf_slam.egg-info/dependency_links.txt
+[5.387s] writing entry points to ekf_slam.egg-info/entry_points.txt
+[5.388s] writing requirements to ekf_slam.egg-info/requires.txt
+[5.388s] writing top-level names to ekf_slam.egg-info/top_level.txt
+[5.482s] reading manifest file 'ekf_slam.egg-info/SOURCES.txt'
+[5.485s] writing manifest file 'ekf_slam.egg-info/SOURCES.txt'
+[5.540s] running build_ext
+[5.540s] Creating /home/usernom-b/ros2_ws/install/ekf_slam/lib/python3.12/site-packages/ekf-slam.egg-link (link to .)
+[5.542s] Installing ekf_slam_node script to /home/usernom-b/ros2_ws/install/ekf_slam/lib/ekf_slam
+[5.546s] 
+[5.547s] Installed /home/usernom-b/ros2_ws/build/ekf_slam
+[5.547s] running symlink_data
+[5.549s] error: can't copy '/home/usernom-b/ros2_ws/build/ekf_slam/launch/ekf_slam.launch.py': doesn't exist or not a regular file
+[5.672s] Invoked command in '/home/usernom-b/ros2_ws/build/ekf_slam' returned '1': PYTHONPATH=/home/usernom-b/ros2_ws/build/ekf_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usernom-b/ros2_ws/install/ekf_slam/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/usernom-b/ros2_ws/build/ekf_slam/build --no-deps symlink_data

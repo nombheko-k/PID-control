@@ -1,0 +1,33 @@
+[2.533s] Invoking command in '/home/usernom-b/ros2_ws/build/ekf_slam': PYTHONPATH=/home/usernom-b/ros2_ws/build/ekf_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usernom-b/ros2_ws/install/ekf_slam/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/usernom-b/ros2_ws/build/ekf_slam/build
+[3.099s] running develop
+[3.475s] Removing /home/usernom-b/ros2_ws/install/ekf_slam/lib/python3.12/site-packages/ekf-slam.egg-link (link to .)
+[3.535s] Invoked command in '/home/usernom-b/ros2_ws/build/ekf_slam' returned '0': PYTHONPATH=/home/usernom-b/ros2_ws/build/ekf_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usernom-b/ros2_ws/install/ekf_slam/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/usernom-b/ros2_ws/build/ekf_slam/build
+[3.536s] Invoking command in '/home/usernom-b/ros2_ws/src/ekf_slam': PYTHONPATH=/home/usernom-b/ros2_ws/build/ekf_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usernom-b/ros2_ws/install/ekf_slam/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ekf_slam build --build-base /home/usernom-b/ros2_ws/build/ekf_slam/build install --record /home/usernom-b/ros2_ws/build/ekf_slam/install.log --single-version-externally-managed install_data --force
+[4.041s] running egg_info
+[4.076s] writing ../../build/ekf_slam/ekf_slam.egg-info/PKG-INFO
+[4.077s] writing dependency_links to ../../build/ekf_slam/ekf_slam.egg-info/dependency_links.txt
+[4.078s] writing entry points to ../../build/ekf_slam/ekf_slam.egg-info/entry_points.txt
+[4.078s] writing requirements to ../../build/ekf_slam/ekf_slam.egg-info/requires.txt
+[4.078s] writing top-level names to ../../build/ekf_slam/ekf_slam.egg-info/top_level.txt
+[4.150s] reading manifest file '../../build/ekf_slam/ekf_slam.egg-info/SOURCES.txt'
+[4.152s] writing manifest file '../../build/ekf_slam/ekf_slam.egg-info/SOURCES.txt'
+[4.153s] running build
+[4.153s] running build_py
+[4.154s] creating /home/usernom-b/ros2_ws/build/ekf_slam/build
+[4.154s] creating /home/usernom-b/ros2_ws/build/ekf_slam/build/lib
+[4.155s] creating /home/usernom-b/ros2_ws/build/ekf_slam/build/lib/ekf_slam
+[4.155s] copying ekf_slam/__init__.py -> /home/usernom-b/ros2_ws/build/ekf_slam/build/lib/ekf_slam
+[4.156s] copying ekf_slam/ekf_slam_node.py -> /home/usernom-b/ros2_ws/build/ekf_slam/build/lib/ekf_slam
+[4.156s] running install
+[4.168s] running install_lib
+[4.202s] creating /home/usernom-b/ros2_ws/install/ekf_slam/lib/python3.12/site-packages/ekf_slam
+[4.203s] copying /home/usernom-b/ros2_ws/build/ekf_slam/build/lib/ekf_slam/__init__.py -> /home/usernom-b/ros2_ws/install/ekf_slam/lib/python3.12/site-packages/ekf_slam
+[4.203s] copying /home/usernom-b/ros2_ws/build/ekf_slam/build/lib/ekf_slam/ekf_slam_node.py -> /home/usernom-b/ros2_ws/install/ekf_slam/lib/python3.12/site-packages/ekf_slam
+[4.205s] byte-compiling /home/usernom-b/ros2_ws/install/ekf_slam/lib/python3.12/site-packages/ekf_slam/__init__.py to __init__.cpython-312.pyc
+[4.206s] byte-compiling /home/usernom-b/ros2_ws/install/ekf_slam/lib/python3.12/site-packages/ekf_slam/ekf_slam_node.py to ekf_slam_node.cpython-312.pyc
+[4.213s] running install_data
+[4.213s] copying resource/ekf_slam -> /home/usernom-b/ros2_ws/install/ekf_slam/share/ament_index/resource_index/packages
+[4.214s] copying package.xml -> /home/usernom-b/ros2_ws/install/ekf_slam/share/ekf_slam
+[4.214s] creating /home/usernom-b/ros2_ws/install/ekf_slam/share/ekf_slam/launch
+[4.215s] error: can't copy 'launch/ekf_slam.launch.py': doesn't exist or not a regular file
+[4.251s] Invoked command in '/home/usernom-b/ros2_ws/src/ekf_slam' returned '1': PYTHONPATH=/home/usernom-b/ros2_ws/build/ekf_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usernom-b/ros2_ws/install/ekf_slam/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ekf_slam build --build-base /home/usernom-b/ros2_ws/build/ekf_slam/build install --record /home/usernom-b/ros2_ws/build/ekf_slam/install.log --single-version-externally-managed install_data --force

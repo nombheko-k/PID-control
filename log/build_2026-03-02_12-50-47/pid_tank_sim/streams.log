@@ -1,0 +1,19 @@
+[3.678s] Invoking command in '/home/usernom-b/ros2_ws/build/pid_tank_sim': PYTHONPATH=/home/usernom-b/ros2_ws/build/pid_tank_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usernom-b/ros2_ws/install/pid_tank_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/usernom-b/ros2_ws/build/pid_tank_sim/build --no-deps symlink_data --force
+[4.712s] running develop
+[5.264s] running egg_info
+[5.315s] writing pid_tank_sim.egg-info/PKG-INFO
+[5.317s] writing dependency_links to pid_tank_sim.egg-info/dependency_links.txt
+[5.320s] writing entry points to pid_tank_sim.egg-info/entry_points.txt
+[5.321s] writing requirements to pid_tank_sim.egg-info/requires.txt
+[5.321s] writing top-level names to pid_tank_sim.egg-info/top_level.txt
+[5.419s] reading manifest file 'pid_tank_sim.egg-info/SOURCES.txt'
+[5.423s] writing manifest file 'pid_tank_sim.egg-info/SOURCES.txt'
+[5.473s] running build_ext
+[5.474s] Creating /home/usernom-b/ros2_ws/install/pid_tank_sim/lib/python3.12/site-packages/pid-tank-sim.egg-link (link to .)
+[5.476s] Installing sim_node script to /home/usernom-b/ros2_ws/install/pid_tank_sim/lib/pid_tank_sim
+[5.477s] 
+[5.478s] Installed /home/usernom-b/ros2_ws/build/pid_tank_sim
+[5.478s] running symlink_data
+[5.479s] symbolically linking /home/usernom-b/ros2_ws/build/pid_tank_sim/resource/pid_tank_sim -> /home/usernom-b/ros2_ws/install/pid_tank_sim/share/ament_index/resource_index/packages
+[5.482s] symbolically linking /home/usernom-b/ros2_ws/build/pid_tank_sim/package.xml -> /home/usernom-b/ros2_ws/install/pid_tank_sim/share/pid_tank_sim
+[5.555s] Invoked command in '/home/usernom-b/ros2_ws/build/pid_tank_sim' returned '0': PYTHONPATH=/home/usernom-b/ros2_ws/build/pid_tank_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usernom-b/ros2_ws/install/pid_tank_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/usernom-b/ros2_ws/build/pid_tank_sim/build --no-deps symlink_data --force

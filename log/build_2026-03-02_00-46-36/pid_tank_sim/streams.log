@@ -1,0 +1,23 @@
+[2.692s] Invoking command in '/home/usernom-b/ros2_ws/src/pid_tank_sim': PYTHONPATH=/home/usernom-b/ros2_ws/build/pid_tank_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usernom-b/ros2_ws/install/pid_tank_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pid_tank_sim build --build-base /home/usernom-b/ros2_ws/build/pid_tank_sim/build install --record /home/usernom-b/ros2_ws/build/pid_tank_sim/install.log --single-version-externally-managed install_data
+[3.202s] running egg_info
+[3.239s] writing ../../build/pid_tank_sim/pid_tank_sim.egg-info/PKG-INFO
+[3.242s] writing dependency_links to ../../build/pid_tank_sim/pid_tank_sim.egg-info/dependency_links.txt
+[3.243s] writing entry points to ../../build/pid_tank_sim/pid_tank_sim.egg-info/entry_points.txt
+[3.245s] writing requirements to ../../build/pid_tank_sim/pid_tank_sim.egg-info/requires.txt
+[3.245s] writing top-level names to ../../build/pid_tank_sim/pid_tank_sim.egg-info/top_level.txt
+[3.318s] reading manifest file '../../build/pid_tank_sim/pid_tank_sim.egg-info/SOURCES.txt'
+[3.320s] writing manifest file '../../build/pid_tank_sim/pid_tank_sim.egg-info/SOURCES.txt'
+[3.321s] running build
+[3.321s] running build_py
+[3.322s] copying pid_tank_sim/sim_node.py -> /home/usernom-b/ros2_ws/build/pid_tank_sim/build/lib/pid_tank_sim
+[3.323s] running install
+[3.335s] running install_lib
+[3.372s] copying /home/usernom-b/ros2_ws/build/pid_tank_sim/build/lib/pid_tank_sim/sim_node.py -> /home/usernom-b/ros2_ws/install/pid_tank_sim/lib/python3.12/site-packages/pid_tank_sim
+[3.374s] byte-compiling /home/usernom-b/ros2_ws/install/pid_tank_sim/lib/python3.12/site-packages/pid_tank_sim/sim_node.py to sim_node.cpython-312.pyc
+[3.379s] running install_data
+[3.380s] running install_egg_info
+[3.419s] removing '/home/usernom-b/ros2_ws/install/pid_tank_sim/lib/python3.12/site-packages/pid_tank_sim-0.0.1-py3.12.egg-info' (and everything under it)
+[3.421s] Copying ../../build/pid_tank_sim/pid_tank_sim.egg-info to /home/usernom-b/ros2_ws/install/pid_tank_sim/lib/python3.12/site-packages/pid_tank_sim-0.0.1-py3.12.egg-info
+[3.423s] running install_scripts
+[3.670s] Installing sim_node script to /home/usernom-b/ros2_ws/install/pid_tank_sim/lib/pid_tank_sim
+[3.678s] writing list of installed files to '/home/usernom-b/ros2_ws/build/pid_tank_sim/install.log'

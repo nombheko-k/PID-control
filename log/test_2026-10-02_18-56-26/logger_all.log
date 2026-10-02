@@ -1,0 +1,91 @@
+[0.679s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'test', '--packages-select', 'pid_tank_sim']
+[0.679s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='test', build_base='build', install_base='install', merge_install=False, test_result_base=None, retest_until_fail=0, retest_until_pass=0, abort_on_error=False, return_code_on_test_failure=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['pid_tank_sim'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], ctest_args=None, python_testing=None, pytest_args=None, pytest_with_coverage=False, unittest_args=None, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x707c5d09c2c0>, verb_extension=<colcon_core.verb.test.TestVerb object at 0x707c5d0728a0>, main=<bound method TestVerb.main of <colcon_core.verb.test.TestVerb object at 0x707c5d0728a0>>, mixin_verb=('test',))
+[0.783s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.784s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/usernom-b/pid_ws'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.858s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.859s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.859s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.859s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.859s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.862s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.863s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.864s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tank_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tank_sim) by extension 'ignore'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tank_sim) by extension 'ignore_ament_install'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tank_sim) by extensions ['colcon_pkg']
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tank_sim) by extension 'colcon_pkg'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tank_sim) by extensions ['colcon_meta']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tank_sim) by extension 'colcon_meta'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tank_sim) by extensions ['ros']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tank_sim) by extension 'ros'
+[0.872s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pid_tank_sim' with type 'ros.ament_python' and name 'pid_tank_sim'
+[0.872s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.872s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.872s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.872s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.872s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'pid_tank_sim' test argument 'ctest_args' from command line to 'None'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'pid_tank_sim' test argument 'python_testing' from command line to 'None'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'pid_tank_sim' test argument 'pytest_args' from command line to 'None'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'pid_tank_sim' test argument 'pytest_with_coverage' from command line to 'False'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'pid_tank_sim' test argument 'unittest_args' from command line to 'None'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'pid_tank_sim' test argument 'retest_until_pass' from command line to '0'
+[0.877s] Level 5:colcon.colcon_core.verb:set package 'pid_tank_sim' test argument 'retest_until_fail' from command line to '0'
+[0.877s] DEBUG:colcon.colcon_core.verb.test:Testing package 'pid_tank_sim' with the following arguments: {'build_base': '/home/usernom-b/pid_ws/build/pid_tank_sim', 'ctest_args': None, 'install_base': '/home/usernom-b/pid_ws/install/pid_tank_sim', 'path': '/home/usernom-b/pid_ws/src/pid_tank_sim', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[0.878s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.881s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.882s] INFO:colcon.colcon_ros.task.ament_python.test:Testing ROS package in '/home/usernom-b/pid_ws/src/pid_tank_sim' with build type'ament_python'
+[0.882s] INFO:colcon.colcon_core.task.python.test:Testing Python package in '/home/usernom-b/pid_ws/src/pid_tank_sim'
+[0.889s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.889s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.890s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.715s] Level 1:colcon.colcon_core.task.python.test:test() by extension 'pytest'
+[1.715s] Level 1:colcon.colcon_core.task.python.test:test() by extension 'setuppy_test'
+[1.715s] Level 1:colcon.colcon_core.task.python.test:test.step() by extension 'setuppy_test'
+[1.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/usernom-b/pid_ws/src/pid_tank_sim': AMENT_PREFIX_PATH=/home/usernom-b/pid_ws/install/pid_tank_sim:${AMENT_PREFIX_PATH} PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/usernom-b/pid_ws/install/pid_tank_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m unittest -v
+[1.872s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/usernom-b/pid_ws/src/pid_tank_sim' returned '5': AMENT_PREFIX_PATH=/home/usernom-b/pid_ws/install/pid_tank_sim:${AMENT_PREFIX_PATH} PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/usernom-b/pid_ws/install/pid_tank_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m unittest -v
+[1.881s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.882s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.882s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '5'
+[1.882s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.993s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.994s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.994s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.994s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.998s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2.000s] DEBUG:colcon.colcon_core.event_reactor:joined thread

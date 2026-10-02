@@ -1,0 +1,15 @@
+[2.994s] Invoking command in '/home/usernom-b/ros2_ws/build/ekf_slam': PYTHONPATH=/home/usernom-b/ros2_ws/build/ekf_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usernom-b/ros2_ws/install/ekf_slam/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/usernom-b/ros2_ws/build/ekf_slam/build --no-deps symlink_data
+[3.789s] running develop
+[4.297s] running egg_info
+[4.339s] writing ekf_slam.egg-info/PKG-INFO
+[4.341s] writing dependency_links to ekf_slam.egg-info/dependency_links.txt
+[4.344s] writing requirements to ekf_slam.egg-info/requires.txt
+[4.345s] writing top-level names to ekf_slam.egg-info/top_level.txt
+[4.445s] reading manifest file 'ekf_slam.egg-info/SOURCES.txt'
+[4.447s] writing manifest file 'ekf_slam.egg-info/SOURCES.txt'
+[4.499s] running build_ext
+[4.499s] Creating /home/usernom-b/ros2_ws/install/ekf_slam/lib/python3.12/site-packages/ekf-slam.egg-link (link to .)
+[4.499s] 
+[4.499s] Installed /home/usernom-b/ros2_ws/build/ekf_slam
+[4.499s] running symlink_data
+[4.582s] Invoked command in '/home/usernom-b/ros2_ws/build/ekf_slam' returned '0': PYTHONPATH=/home/usernom-b/ros2_ws/build/ekf_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usernom-b/ros2_ws/install/ekf_slam/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/usernom-b/ros2_ws/build/ekf_slam/build --no-deps symlink_data

@@ -1,0 +1,22 @@
+[2.822s] Invoking command in '/home/usernom-b/ros2_ws/build/ekf_slam': PYTHONPATH=/home/usernom-b/ros2_ws/build/ekf_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usernom-b/ros2_ws/install/ekf_slam/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/usernom-b/ros2_ws/build/ekf_slam/build --no-deps symlink_data
+[3.582s] running develop
+[4.055s] running egg_info
+[4.055s] creating ekf_slam.egg-info
+[4.140s] writing ekf_slam.egg-info/PKG-INFO
+[4.142s] writing dependency_links to ekf_slam.egg-info/dependency_links.txt
+[4.144s] writing requirements to ekf_slam.egg-info/requires.txt
+[4.145s] writing top-level names to ekf_slam.egg-info/top_level.txt
+[4.145s] writing manifest file 'ekf_slam.egg-info/SOURCES.txt'
+[4.252s] reading manifest file 'ekf_slam.egg-info/SOURCES.txt'
+[4.253s] writing manifest file 'ekf_slam.egg-info/SOURCES.txt'
+[4.307s] running build_ext
+[4.308s] Creating /home/usernom-b/ros2_ws/install/ekf_slam/lib/python3.12/site-packages/ekf-slam.egg-link (link to .)
+[4.310s] 
+[4.310s] Installed /home/usernom-b/ros2_ws/build/ekf_slam
+[4.311s] running symlink_data
+[4.312s] creating /home/usernom-b/ros2_ws/install/ekf_slam/share/ament_index
+[4.313s] creating /home/usernom-b/ros2_ws/install/ekf_slam/share/ament_index/resource_index
+[4.313s] creating /home/usernom-b/ros2_ws/install/ekf_slam/share/ament_index/resource_index/packages
+[4.314s] symbolically linking /home/usernom-b/ros2_ws/build/ekf_slam/resource/ekf_slam -> /home/usernom-b/ros2_ws/install/ekf_slam/share/ament_index/resource_index/packages
+[4.315s] symbolically linking /home/usernom-b/ros2_ws/build/ekf_slam/package.xml -> /home/usernom-b/ros2_ws/install/ekf_slam/share/ekf_slam
+[4.380s] Invoked command in '/home/usernom-b/ros2_ws/build/ekf_slam' returned '0': PYTHONPATH=/home/usernom-b/ros2_ws/build/ekf_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usernom-b/ros2_ws/install/ekf_slam/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/usernom-b/ros2_ws/build/ekf_slam/build --no-deps symlink_data

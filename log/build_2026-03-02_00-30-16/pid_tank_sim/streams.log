@@ -1,0 +1,20 @@
+[2.027s] Invoking command in '/home/usernom-b/ros2_ws/src/pid_tank_sim': PYTHONPATH=/home/usernom-b/ros2_ws/build/pid_tank_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/usernom-b/ros2_ws/install/pid_tank_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pid_tank_sim build --build-base /home/usernom-b/ros2_ws/build/pid_tank_sim/build install --record /home/usernom-b/ros2_ws/build/pid_tank_sim/install.log --single-version-externally-managed install_data
+[2.541s] running egg_info
+[2.574s] writing ../../build/pid_tank_sim/pid_tank_sim.egg-info/PKG-INFO
+[2.574s] writing dependency_links to ../../build/pid_tank_sim/pid_tank_sim.egg-info/dependency_links.txt
+[2.575s] writing entry points to ../../build/pid_tank_sim/pid_tank_sim.egg-info/entry_points.txt
+[2.576s] writing requirements to ../../build/pid_tank_sim/pid_tank_sim.egg-info/requires.txt
+[2.576s] writing top-level names to ../../build/pid_tank_sim/pid_tank_sim.egg-info/top_level.txt
+[2.649s] reading manifest file '../../build/pid_tank_sim/pid_tank_sim.egg-info/SOURCES.txt'
+[2.651s] writing manifest file '../../build/pid_tank_sim/pid_tank_sim.egg-info/SOURCES.txt'
+[2.651s] running build
+[2.652s] running build_py
+[2.652s] running install
+[2.664s] running install_lib
+[2.700s] running install_data
+[2.701s] running install_egg_info
+[2.741s] removing '/home/usernom-b/ros2_ws/install/pid_tank_sim/lib/python3.12/site-packages/pid_tank_sim-0.0.1-py3.12.egg-info' (and everything under it)
+[2.742s] Copying ../../build/pid_tank_sim/pid_tank_sim.egg-info to /home/usernom-b/ros2_ws/install/pid_tank_sim/lib/python3.12/site-packages/pid_tank_sim-0.0.1-py3.12.egg-info
+[2.744s] running install_scripts
+[2.985s] Installing sim_node script to /home/usernom-b/ros2_ws/install/pid_tank_sim/lib/pid_tank_sim
+[2.986s] writing list of installed files to '/home/usernom-b/ros2_ws/build/pid_tank_sim/install.log'

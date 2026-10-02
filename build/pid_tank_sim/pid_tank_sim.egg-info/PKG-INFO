@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pid-tank-sim
+Version: 0.0.1
+Summary: PID-controlled drone altitude simulator with a Tkinter/Matplotlib GUI for ROS 2
+Maintainer: your_name
+Maintainer-email: you@example.com
+License: Apache-2.0
+License-File: LICENSE
